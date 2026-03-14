@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<script src="https://cdn.tailwindcss.com"></script>
+<title>Create Account</title>
+</head>
+
+<body class="bg-gray-100 flex justify-center items-center h-screen">
+
+<div class="bg-white p-6 rounded-lg shadow-lg w-96">
+
+<h2 class="text-2xl mb-4 font-bold">Create Account</h2>
+
+<form action="/signup" method="POST">
+
+<input name="email"
+class="w-full border p-3 mb-3 rounded"
+placeholder="Email"
+required>
+
+<input name="password"
+type="password"
+class="w-full border p-3 mb-3 rounded"
+placeholder="Password"
+required>
+
+<button
+class="w-full bg-green-600 text-white py-3 rounded">
+Sign Up
+</button>
+
+</form>
+
+</div>
+
+</body>
+</html>
