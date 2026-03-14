@@ -3,26 +3,25 @@
 ## Project Overview
 
 This project is a **Facebook Login Page Clone** built using **HTML, Tailwind CSS, and Node.js**.
-The application allows users to **create an account and login** using a simple backend API.
-The entire application is **containerized using Docker and deployed on AWS EC2**.
+It allows users to **create an account and login** through a simple backend API.
 
-This project demonstrates **basic full-stack development and DevOps practices** such as containerization and cloud deployment.
+The application is **containerized using Docker and deployed on AWS EC2**, demonstrating basic **Full Stack and DevOps practices**.
 
 ---
 
 ## Technologies Used
 
-Frontend
+### Frontend
 
 * HTML
-* Tailwind CSS
+* Tailwind CSS (CDN)
 
-Backend
+### Backend
 
 * Node.js
 * Express.js
 
-DevOps Tools
+### DevOps Tools
 
 * Docker
 * Git
@@ -51,7 +50,6 @@ Facebook-LoginPage-Clone
 │
 ├── index.html
 ├── signup.html
-├── clone.css
 ├── Dockerfile
 ├── README.md
 │
@@ -65,11 +63,11 @@ Facebook-LoginPage-Clone
 ## Features
 
 * Responsive Facebook Login UI
-* User Signup
-* User Login
+* User Signup functionality
+* User Login validation
 * Node.js backend API
-* Docker container deployment
-* Hosted on AWS EC2
+* Docker containerized application
+* Deployment on AWS EC2
 
 ---
 
@@ -113,7 +111,7 @@ Build Docker image
 docker build -t facebook-login-app .
 ```
 
-Run container
+Run Docker container
 
 ```
 docker run -d -p 3000:3000 facebook-login-app
@@ -131,10 +129,10 @@ http://localhost:3000
 
 1. Launch EC2 instance (Amazon Linux)
 2. Install Docker
-3. Clone repository
+3. Clone the repository
 4. Build Docker image
 5. Run Docker container
-6. Access using EC2 Public IP
+6. Access application using EC2 Public IP
 
 Example:
 
@@ -144,40 +142,49 @@ http://EC2-PUBLIC-IP:3000
 
 ---
 
-## Login Flow
+## User Flow
 
-User enters credentials
-↓
-Form sends request to `/login`
-↓
-Node.js server validates user
-↓
-Login success or failure message returned
+Login Page → Create Account → Account Created → Login Success
+
+---
+
+## Screenshots
+
+### 1. Facebook Login Page
+
+<img width="1863" height="902" alt="Facebook Login Page" src="https://github.com/user-attachments/assets/e13b56c8-571e-4cd8-87cc-b3387b463b45" />
+
+---
+
+### 2. Create Account Page
+
+<img width="1435" height="732" alt="Create Account Page" src="https://github.com/user-attachments/assets/c6a8c63b-93f1-4e1e-85d9-c786c5793324" />
+
+---
+
+### 3. Account Created Successfully
+
+<img width="1003" height="355" alt="Account Created" src="https://github.com/user-attachments/assets/0a4c2948-1407-47a7-b513-994b124e5f03" />
+
+---
+
+### 4. Login Successful
+
+<img width="737" height="242" alt="Login Success" src="https://github.com/user-attachments/assets/541c773a-9c07-4dbc-ab76-c6516fc7f0d2" />
 
 ---
 
 ## Future Improvements
 
 * Add database integration
-* Implement JWT authentication
-* Deploy using Kubernetes
+* Implement authentication using JWT
 * Add CI/CD pipeline
-* Store Docker images in container registry
+* Deploy using Kubernetes
+* Push Docker images to container registry
 
 ---
 
 ## Author
 
 Juhi Sinha
-
 DevOps Engineer
-
-## Screenshots 
-
-<img width="1863" height="902" alt="Image" src="https://github.com/user-attachments/assets/e13b56c8-571e-4cd8-87cc-b3387b463b45" />
-
-<img width="1435" height="732" alt="Image" src="https://github.com/user-attachments/assets/c6a8c63b-93f1-4e1e-85d9-c786c5793324" />
-
-<img width="1003" height="355" alt="Image" src="https://github.com/user-attachments/assets/0a4c2948-1407-47a7-b513-994b124e5f03" />
-
-<img width="737" height="242" alt="Image" src="https://github.com/user-attachments/assets/541c773a-9c07-4dbc-ab76-c6516fc7f0d2" />
