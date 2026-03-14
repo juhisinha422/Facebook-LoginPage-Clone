@@ -171,3 +171,13 @@ Login success or failure message returned
 Juhi Sinha
 
 DevOps Engineer
+
+## Screenshots 
+
+<img width="1863" height="902" alt="Image" src="https://github.com/user-attachments/assets/e13b56c8-571e-4cd8-87cc-b3387b463b45" />
+
+<img width="1435" height="732" alt="Image" src="https://github.com/user-attachments/assets/c6a8c63b-93f1-4e1e-85d9-c786c5793324" />
+
+<img width="1003" height="355" alt="Image" src="https://github.com/user-attachments/assets/0a4c2948-1407-47a7-b513-994b124e5f03" />
+
+<img width="737" height="242" alt="Image" src="https://github.com/user-attachments/assets/541c773a-9c07-4dbc-ab76-c6516fc7f0d2" />
